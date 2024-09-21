@@ -1,5 +1,7 @@
 # FTS - Amjad's Portfolio
 
+![Portfolio Screenshot](/Assets//readme/portfolio-screenshot.png)
+
 ## Description
 
 My Portfolio is a personal website showcasing my skills, projects, and achievements in front-end development and competitive programming. The website is built using HTML and CSS to provide an interactive and responsive user experience.
