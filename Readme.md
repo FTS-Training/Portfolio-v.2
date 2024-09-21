@@ -12,17 +12,13 @@ My Portfolio is a personal website showcasing my skills, projects, and achieveme
 ## Installation
 
 1. **Clone the repository**:
-   `git clone https://github.com/yourusername/portfolio.git`
+   `git clone https://github.com/FTS-Training/Portfolio-v.2.git`
 
 2. **Navigate to the project directory**:
    `cd portfolio`
 
 3. **Open the project**:
    Open `index.html` in your preferred web browser to view the portfolio website locally.
-
-## Deployment
-
-The portfolio website can be deployed using platforms like GitHub Pages, Netlify, or any web hosting service for easy accessibility and sharing.
 
 ## Project Structure
 
