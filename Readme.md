@@ -4,7 +4,6 @@
 
 My Portfolio is a personal website showcasing my skills, projects, and achievements in front-end development and competitive programming. The website is built using HTML and CSS to provide an interactive and responsive user experience.
 
-
 ## Technologies Used
 
 - HTML5
@@ -34,6 +33,6 @@ The portfolio website can be deployed using platforms like GitHub Pages, Netlify
 
 ## Contact
 
-- **Email**: amjad@example.com
-- **LinkedIn**: [Amjad Kayed](https://www.linkedin.com/in/amjadkayed/)
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **Email**: amjad.kayed23@gmail.com
+- **LinkedIn**: [Amjad Kayed](https://www.linkedin.com/in/amjad-kayed-3109b5248/)
+- **GitHub**: [Amjad Kayed](https://github.com/amjadkayed)
