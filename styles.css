@@ -15,6 +15,17 @@
   --header-height: 80px;
 }
 
+abbr {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS Code Latin", monospace;
+}
+
 body,
 html {
   margin: 0px;
@@ -38,7 +49,7 @@ html {
   justify-content: center;
   min-width: 100vw;
   height: var(--header-height);
-  padding: 40px 40px;
+  padding: 40px;
   box-sizing: border-box;
   width: 100%;
   background-color: var(--color-light-white);
@@ -65,10 +76,10 @@ html {
 }
 
 .navbar > ul > li > a {
-  color: inherit;
+  color: var(--color-black-solid);
   font-weight: bold;
   font-size: 32px;
-  text-decoration: inherit;
+  text-decoration: none;
   padding: 0px 20px;
   display: block;
   height: 100%;
@@ -519,6 +530,7 @@ section {
 }
 
 .skills-title {
+  text-transform: uppercase;
   font-size: 40px;
   font-weight: semibold;
   color: var(--color-orange-dark);
