@@ -1,6 +1,6 @@
 # FTS - Amjad's Portfolio
 
-![Portfolio Screenshot](/Assets//readme/portfolio-screenshot.png)
+![Portfolio Screenshot](/Assets/readme/portfolio-screenshot.png)
 
 ## Description
 
@@ -13,13 +13,13 @@ My Portfolio is a personal website showcasing my skills, projects, and achieveme
 
 ## Installation
 
-1. **Clone the repository**:
+1. **Clone the repository**:  
    `git clone https://github.com/FTS-Training/Portfolio-v.2.git`
 
-2. **Navigate to the project directory**:
+2. **Navigate to the project directory**:  
    `cd portfolio`
 
-3. **Open the project**:
+3. **Open the project**:  
    Open `index.html` in your preferred web browser to view the portfolio website locally.
 
 ## Project Structure
@@ -28,6 +28,10 @@ My Portfolio is a personal website showcasing my skills, projects, and achieveme
 - **styles.css**: Stylesheet for the website.
 - **index.html**: Main HTML file for the portfolio.
 - **README.md**: Documentation for the project.
+
+## Preview
+
+You can preview the portfolio [here](https://amjads-portfolio.netlify.app/).
 
 ## Contact
 
