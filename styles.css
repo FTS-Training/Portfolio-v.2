@@ -219,6 +219,9 @@ section {
 .main-information-section {
   position: relative;
   display: flex;
+  flex: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   box-sizing: border-box;
   padding: 80px var(--padding-x) 0px;
 }
