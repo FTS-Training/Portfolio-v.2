@@ -12,17 +12,22 @@
     <body>
         <header class="header" role="navigation">
             <nav aria-label="Main navigation" class="navbar">
-                <ul>
-                    <li>
+                <div class="burger" aria-label="Menu toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
                         <a href="#about" aria-label="About section">About</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="#skills" aria-label="Skills section">Skills</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="#projects" aria-label="Projects section">Projects</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="#contests" aria-label="Contact section">Contests</a>
                     </li>
                 </ul>
@@ -170,5 +175,6 @@
             <p>&copy; 2024 Amjad's Portfolio. All rights reserved.</p>
         </footer>
         <script src="./js/aos.js" defer></script>
+        <script src="./js/navbar.js" defer></script>
     </body>
 </html>
