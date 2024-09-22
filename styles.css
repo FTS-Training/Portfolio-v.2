@@ -44,11 +44,6 @@ html {
   background-color: var(--color-light-white);
 }
 
-.header-spacer {
-  min-height: var(--header-height);
-  width: 100%;
-}
-
 .navbar {
   max-width: 1440px;
   width: 100%;
@@ -149,6 +144,7 @@ main {
   background-color: var(--color-light-white);
   display: flex;
   flex-direction: column;
+  padding-top: var(--header-height);
 }
 
 section {
@@ -156,7 +152,6 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 0px;
   min-height: 800px;
   width: 100%;
   padding: 0px;
@@ -219,17 +214,13 @@ section {
   }
 }
 
-/* -------------------- sec1 ------------------------- */
+/* -------------------- main-information-section ------------------------- */
 
-.sec1 {
+.main-information-section {
   position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
   box-sizing: border-box;
-  padding: 0px var(--padding-x);
-  padding-top: 80px;
+  padding: 80px var(--padding-x) 0px;
 }
 
 .main-info-wrapper {
@@ -241,11 +232,9 @@ section {
 
 .main-info-wrapper > .name {
   margin: 0px;
-  font-weight: normal;
   font-size: 105px;
   text-shadow: 5px 9px 4px #e7a41f;
   text-transform: uppercase;
-  unicode-bidi: unset;
 }
 .main-info-wrapper > .description {
   font-size: 30px;
@@ -349,7 +338,7 @@ section {
 }
 
 @media (max-width: 800px) {
-  .sec1 {
+  .main-information-section {
     padding-top: 40px;
   }
   .home-image {
@@ -400,15 +389,14 @@ section {
   }
 }
 
-/* -------------------- sec2 ------------------------- */
+/* -------------------- about-section ------------------------- */
 
-.sec2 {
+.about-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 0px var(--padding-x);
-  padding-top: 80px;
+  padding: 80px var(--padding-x) 0px;
 }
 
 .about-container {
@@ -447,10 +435,8 @@ section {
 }
 
 @media (max-width: 1200px) {
-  .sec2 {
+  .about-section {
     flex-direction: column;
-    padding: 0px var(--padding-x);
-    padding-top: 80px;
   }
   .about-container {
     gap: 15px;
@@ -467,10 +453,6 @@ section {
 }
 
 @media (max-width: 600px) {
-  .sec2 {
-    padding: 0px var(--padding-x);
-    padding-top: 80px;
-  }
   .about-container {
     gap: 10px;
   }
@@ -487,10 +469,6 @@ section {
 }
 
 @media (max-width: 550px) {
-  .sec2 {
-    padding: 0px var(--padding-x);
-    padding-top: 80px;
-  }
   .about-me-title {
     font-size: 26px;
   }
@@ -504,10 +482,6 @@ section {
 }
 
 @media (max-width: 400px) {
-  .sec2 {
-    padding: 0px var(--padding-x);
-    padding-top: 80px;
-  }
   .about-container {
     gap: 5px;
   }
@@ -523,15 +497,14 @@ section {
   }
 }
 
-/* -------------------- sec3 ------------------------- */
-.sec3 {
+/* -------------------- skills-section ------------------------- */
+.skills-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 100px;
-  padding: 0px 150px;
-  padding-top: 80px;
+  padding: 80px 150px 0px;
 }
 
 .technical-skills-container {
@@ -585,10 +558,9 @@ section {
 }
 
 @media (max-width: 800px) {
-  .sec3 {
-    padding: 0px 100px;
+  .skills-section {
+    padding: 80px 100px 0px;
     gap: 80px;
-    padding-top: 80px;
   }
   .skills-title {
     font-size: 36px;
@@ -614,10 +586,9 @@ section {
 }
 
 @media (max-width: 600px) {
-  .sec3 {
-    padding: 0px 60px;
+  .skills-section {
+    padding: 80px 60px 0px;
     gap: 60px;
-    padding-top: 80px;
   }
   .skills-title {
     font-size: 32px;
@@ -636,10 +607,9 @@ section {
 }
 
 @media (max-width: 550px) {
-  .sec3 {
-    padding: 0px 40px;
+  .skills-section {
+    padding: 80px 40px 0px;
     gap: 50px;
-    padding-top: 80px;
   }
   .skills-title {
     font-size: 28px;
@@ -655,10 +625,9 @@ section {
 }
 
 @media (max-width: 400px) {
-  .sec3 {
-    padding: 0px 20px;
+  .skills-section {
+    padding: 80px 20px 0px;
     gap: 40px;
-    padding-top: 80px;
   }
   .skills-title {
     font-size: 24px;
@@ -676,7 +645,7 @@ section {
   }
 }
 
-/* -------------------- sec4 ------------------------- */
+/* -------------------- projects-section ------------------------- */
 
 .projects-container {
   gap: 20px;
@@ -804,9 +773,9 @@ h3 {
   }
 }
 
-/* -------------------- sec5 ------------------------- */
+/* -------------------- contests-section ------------------------- */
 
-.sec5 {
+.contests-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
