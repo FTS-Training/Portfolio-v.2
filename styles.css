@@ -92,7 +92,7 @@ html {
   animation: itemsHoverIn 0.3s both;
 }
 
-.burger {
+.burger-menu-icon {
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -101,7 +101,7 @@ html {
   cursor: pointer;
 }
 
-.burger span {
+.burger-menu-icon span {
   display: block;
   height: 4px;
   background-color: var(--color-black-solid);
@@ -124,7 +124,7 @@ html {
 }
 
 @media (max-width: 1000px) {
-  .burger {
+  .burger-menu-icon {
     display: flex;
   }
 

@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const burger = document.querySelector(".burger");
+  const burgerMenuIcon = document.querySelector(".burger-menu-icon");
   const navMenu = document.querySelector(".nav-menu");
   const navItems = document.querySelectorAll(".nav-item");
 
-  burger.addEventListener("click", () => {
+  burgerMenuIcon.addEventListener("click", () => {
     navMenu.classList.toggle("active");
   });
 
