@@ -93,7 +93,7 @@ html {
 .burger span {
   display: block;
   height: 4px;
-  background-color: black;
+  background-color: var(--color-black-solid);
   border-radius: 4px;
   transition: transform 0.3s, opacity 0.3s;
 }
